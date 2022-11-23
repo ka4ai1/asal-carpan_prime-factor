@@ -12,10 +12,10 @@ for(int a=2;a<=sayi;a++){ //Tüm çarpanları getirir
         olc=1;
         for(int b=2;b<=a/2;b++){ //Asal çarpanları seçtirir 
             if(a%b==0){		// Show only prime factor elements
-                olc=0;
+                olc=0; //eğer bu kısmı silersen 1 hariç tüm pozitif çarpanları bulur
             }
             }
-            if(olc==1){
+            if(olc==1){ 
                 printf("%d ",a);
             }
     }
