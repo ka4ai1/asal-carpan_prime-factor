@@ -1,4 +1,4 @@
-/*                 coder 'kaswai'                 */
+/*                 c0d3d by 'k4rnel'                 */
 #include<stdio.h>
 int main()
 {		//sayi=number
